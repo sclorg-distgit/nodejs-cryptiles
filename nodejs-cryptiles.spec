@@ -4,7 +4,7 @@
 
 Name:       %{?scl_prefix}nodejs-cryptiles
 Version:    0.2.2
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    General purpose cryptography utilities for Node.js
 License:    BSD
 Group:      Development/Libraries
@@ -49,6 +49,9 @@ rm -rf %{buildroot}
 %doc README.md LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.2.2-3
+- rebuilt
+
 * Thu Oct 17 2013 Tomas Hrcka <thrcka@redhat.com> - 0.2.2-2
 - replace provides and requires with macro
 
